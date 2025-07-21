@@ -24,7 +24,7 @@ class Atm extends Account{
     void CheckBalance(){
         System.out.print("Balance:"+money+"\n");}
 }
-class Koti{
+class AtmInterface{
     public static void main(String [] args){
         Scanner s=new Scanner(System.in);
         Atm a=new Atm();
